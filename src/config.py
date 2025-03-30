@@ -5,7 +5,7 @@ class AppSettings(BaseSettings):
     """App settings from .env"""
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file="../.env",
         case_sensitive=False,
     )
 
@@ -13,3 +13,6 @@ class AppSettings(BaseSettings):
     APP_HOST: str
     APP_PORT: int
     STATIC_PATH: str
+
+
+settings = AppSettings()
