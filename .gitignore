@@ -174,3 +174,8 @@ cython_debug/
 .pypirc
 
 .env
+static/*.jpg
+static/*.png
+static/*.docx
+static/*.pdf
+static/*.xlsx
